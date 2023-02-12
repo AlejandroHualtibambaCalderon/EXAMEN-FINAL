@@ -69,10 +69,20 @@ header{
 
 
   @media (max-width:700px){
-    header{
+    header, footer, table {
         flex-direction: column;
     }
     nav{
         padding: 10px 0px;
     }
   }
+  footer{
+    min-height: 70px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:khaki;
+
+}
