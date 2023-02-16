@@ -2,250 +2,202 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="estilo.css" />
     <title> Chasqui store </title>
 
 </head>
 
 <body onload="primeraFuncion()">
-    
+
     <header>
         <a href="1-index.html" class="logo">
             <img src="Mi proyecto.png" alt="logo de la tienda">
             <h2 class="tienda-nombre"> Chasqui Gaming Store </h2>
         </a>
         <nav>
-            <a href="" class="nav-link">Inicio</a>
-            <a href="" class="nav-link">Categorias</a>
-            <a href="C:\Users\aleja\OneDrive\Escritorio\CERTUS FRONT END\HTML CERTUS\trabajo parcial\formulario-registro.html"
-                target="_blank" class="nav-link">Registrate</a>
+            <a class="btn btn-success btn-lg" onclick="actualizarLista()" href="#" data-bs-toggle="modal"
+                data-bs-target="#carritoCompra">
+                Ir al carrito
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cart"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+            </a>
+            <a class="btn btn-success btn-lg" href="formulario-registro.html" target="_blank"
+                class="nav-link">Registrate</a>
 
         </nav>
-    </header>
-    <!-- inicio de teclados  -->
-
-    <div class="tecla">
-        <div class="menu">
-            <p><strong> Teclados gamer </strong></p>
-
-            <p>Contamos con los mejores teclados gamer ya sean mecanicos o de menbrana </p>
-            <h4 class="link">redragon store <a href="https://redragon.es/" target="_blank"> tienda oficial </a></h4>
-        </div>
-        <div class="catalogo">
-            <div class="parteblanca">
-
-                <table>
-
-                    <tr>
-
-                        <td>
-                            <p> <i>Redragon kumara k552 black </i> </p>
-                            <img src="https://virtualbusinesscusco.com/wp-content/uploads/2022/10/unnamed-file.png"
-                                width="250px">
-                            <p>caracteristicas</p>
-                            <ul>
-                                <LI> Los Blue son switches de recorrido largo,<br>
-                                    con respuesta táctil y un clic bien audible.</LI>
-                                <LI>Su diseño tipo box los hace resistentes<br>
-                                    a las salpicaduras y el ingreso de polvo.</LI>
-                                <LI> Además, si prefieres un cambio, el <br>
-                                    sistema está diseñado para el “hot swap” <br>
-                                    o cambio rápido de switches.</LI>
-                            </ul>
-
-                        </td>
-
-                        <td>
-                            <p> <i> Redragon kumara k552 white </i> </p>
-                            <img style="padding: 15px ;"
-                                src="https://redragon.es/content/uploads/2021/05/Slider_Kumara-W.png" width="350px">
-                            <ul>
-                                <li>lo mismo pero blanco xd</li>
-                            </ul>
-
-                        </td>
-                        <td>
-                            <p> <i>Redragon Shiva black </i> </p>
-                            <img src="https://redragon.es/content/uploads/2021/05/shiva.png" width="250px">
-                            <p>caracteristicas</p>
-                            <ul>
-                                <LI> Los Blue son switches de recorrido largo,<br>
-                                    con respuesta táctil y un clic bien audible.</LI>
-                                <LI>Su diseño tipo box los hace resistentes<br>
-                                    a las salpicaduras y el ingreso de polvo.</LI>
-                                <LI> Además, si prefieres un cambio, el <br>
-                                    sistema está diseñado para el “hot swap” <br>
-                                    o cambio rápido de switches.</LI>
-                            </ul>
-
-                        </td>
-
-                        <td>
-                            <p> <i> Redragon Shiva white </i> </p>
-                            <img src="https://redragon.es/content/uploads/2021/05/shiva-white.png" width="280px">
-                            <ul>
-                                <li>lo mismo pero blanco xd</li>
-                            </ul>
-
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
-    </div>
-    <!-- termino de teclado  -->
-    <!-- inicio de mouse  -->
-    <div class="mouse">
-        <div class="menu">
-            <p><strong> Mouse gamer </strong></p>
-            <p>Con estos mouse ya no fallaras los headshots </p>
-            <h4 class="link">logitech store <a href="https://www.logitech.com/es-roam" target="_blank"> tienda oficial
-                </a></h4>
-        </div>
-        <div class="catalogo">
-            <div class="parteblanca">
-                <table>
-                    <tr>
-                        <td>
-                            <p> <i>logitch g203</i></p>
-                            <img src="https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/refreshed-g203/g203-black-gallery-1.png"
-                                width="250px">
-                            <ul>
-                                <li>facil personalizacion </li>
-                                <li> muestreo dinamico de pantalla </li>
-                                <li> visualizador de audio </li>
-                            </ul>
-                        </td>
-
-
-                        <td>
-                            <p> <i>centrophorus</i></p>
-                            <img src="https://redragon.es/content/uploads/2021/04/cetro-1.png" width="365px">
-                            <ul>
-                                <li>12 pesas extraibles </li>
-                                <li> 6 botones personalizables </li>
-                                <li> rgb personalizable</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <p> <i>logitch g502</i></p>
-                            <img src="https://resource.logitech.com/content/dam/gaming/en/non-braid/hyjal-g502-hero/g502-hero-gallery-1-nb.png"
-                                width="250px">
-                            <ul>
-                                <li>facil personalizacion </li>
-                                <li> muestreo dinamico de pantalla </li>
-                                <li> 11 botones (para que?, no se) </li>
-                            </ul>
-                        </td>
-                        <td>
-                            <p> <i>logitch g305</i></p>
-                            <img src="https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g305/g305-lilac-gallery-1.png"
-                                width="250px">
-                            <ul>
-                                <li>Mouse inalámbrico </li>
-                                <li>Impresionante duración de baterías de 250 horas </li>
-                                <li> 6 botones </li>
-                            </ul>
-                        </td>
-                    </tr>
-
-                </table>
-            </div>
-        </div>
-    </div>
-    <!-- termino de mouse  -->
-    <!-- inicio de monitores -->
-    <div class="moni">
-        <div class="menu">
-            <p> <strong>Monitores gamer </strong></p>
-            <p> Para que veas tus cochinadas a 144 hz full hd </p>
-            <h4 id="class">ASUS STORE <a href="https://www.asus.com/latin/displays-desktops/monitors/all-series/"
-                    target="_blank">tienda oficial </a></h4>
-        </div>
-        <div class="catalogo">
-
-
-            <div class="parteblanca">
-                <table>
-                    <tr>
-                        <td>
-                            <p> MONITOR ASUS TUF GAMING VG24VQE 23.6″ </p>
-
-                            <img src="https://www.asus.com/media/global/gallery/cgbnmcyso7tcz5gb_setting_xxx_0_90_end_2000.png"
-                                width="250px">
-                            <ul>
-                                <li>resolucion full hd ( 1920x1080)</li>
-                                <li> freesync</li>
-                                <li> 165hz 1ms </li>
-                            </ul>
-                        </td>
-                        <td>
-                            <p> SAMSUNG LS27AG320NLXPE 27 ″ </p>
-
-                            <img src="https://images.samsung.com/is/image/samsung/p6pim/pe/lc27r500fhlxpe/gallery/pe-cr50-32-409014-lc27r500fhlxpe-534165252?$1300_1038_PNG$"
-                                width="250px">
-                            <ul>
-                                <li>resolucion full hd ( 1920x1080)</li>
-                                <li> freesync</li>
-                                <li> 75hz 1ms </li>
-                            </ul>
-                        </td>
-                        <td>
-                            <p> MONITOR REDRAGON JADE 23.6″ </p>
-
-                            <img src="https://redragon.es/content/uploads/2021/12/jade-modal-wide.png" width="450px">
-                            <ul>
-                                <li>resolucion full hd ( 1920x1080)</li>
-                                <li> freesync</li>
-                                <li> 165hz 1ms </li>
-                            </ul>
-                        </td>
-                        <td>
-                            <p> MONITOR ASUS ROG STRIGS EVANGELION EDITION 23.6″ </p>
-
-                            <img src="https://dlcdnwebimgs.asus.com/files/media/CD40B1C1-1025-4F3A-9662-4D51DF7A44B9/v1/img/kv_pd.png"
-                                width="450px">
-                            <ul>
-                                <li>resolucion full hd ( 1920x1080)</li>
-                                <li> freesync</li>
-                                <li> 165hz 1ms </li>
-                                <li> EDICION EVANGELION MI KIN COMPRALO YA </li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </div>
-    <!-- termino de monitores  -->
-    <!-- pie de pagina -->
-    <footer>
-        <div class="grupo1">
-            
-                <a href="1-index.html" class="logo">
-                    <img src="Mi proyecto.png" alt="logo de la tienda">
-                    <h2 class="tienda-nombre"> Chasqui Gaming Store </h2>
-                </a>
-                <nav>
-                    <a href="" class="nav-link">Nosotros</a>
-                    <a href="" class="nav-link">Siguenos</a>
-                    <a href="C:\Users\aleja\OneDrive\Escritorio\CERTUS FRONT END\HTML CERTUS\trabajo parcial\formulario-registro.html"
-                        target="_blank" class="nav-link">Registrate</a>
-                </nav>
+        <!-- Modal carrito de compra-->
+        <div class="modal fade" id="carritoCompra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de compra</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div id="listaCarrito" class="modal-body">
+                        El carrito está vacio.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Realizar la compra</button>
+                    </div>
                 </div>
-        <div class="grupo2">
-            <small> &copy; <b>Chasqui</b> - Todos los Derechos Reservados</small>
+            </div>
         </div>
 
-    </footer>
+    </header>
+    <!-- Botón de Telegram -->
+    <a href="https://web.telegram.org/z/">
+        <img id="Telegram"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png">
+    </a>
+
+    </div>
+    <div id="Catologo" class="container">
+        <div class="row">
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>Logitech G203</h3>
+                <img src="https://resource.logitechg.com/d_transparent.gif/content/dam/gaming/en/products/refreshed-g203/g203-black-gallery-1.png"
+                    width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>Centrophorus</h3>
+                <img src="https://redragon.es/content/uploads/2021/04/cetro-1.png" width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>Logitch G502</h3>
+                <img src="https://resource.logitech.com/content/dam/gaming/en/non-braid/hyjal-g502-hero/g502-hero-gallery-1-nb.png"
+                    width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>logitch g502</h3>
+                <img src="https://resource.logitechg.com/w_692,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/g305/g305-lilac-gallery-1.png"
+                    width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>Logitech G203</h3>
+                <img src="https://virtualbusinesscusco.com/wp-content/uploads/2022/10/unnamed-file.png" width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>Redragon kumara k552 black</h3>
+                <img src="https://redragon.es/content/uploads/2021/04/cetro-1.png" width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3> Redragon kumara k552 white</h3>
+                <img src="https://redragon.es/content/uploads/2021/05/Slider_Kumara-W.png" width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+            <div class="producto col-12 col-sm-6 col-md-4 col-lg-3">
+                <h3>Redragon Shiva black</h3>
+                <img src="https://redragon.es/content/uploads/2021/05/shiva.png" width="100px">
+                <p><span class="oferta">S/ 220.00</span> - 50%</p>
+                <p class="precio">S/ 109.00</p>
+                <p><a class="btn btn-primary" href="#" onclick="addCart(this)"><span>🛒</span> Agregar a carrito</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div id="Pie">
+        <p>
+            Chasqui Gaming Store<br>
+            Grupo InterCorp<br>
+            2022 — Lima Perú
+        </p>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modalEntrada" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <img class="mx-auto d-block" src="https://carlosvassan.com/wp-content/uploads/2021/02/Top-Mejores-ofertas-semana-gamer.jpg" width="300px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+
+    <script>
+
+        // Crear una cookie
+        var ObjetosSeleccionados = [];
+
+        // Función para el modal de promoción
+        function primeraFuncion() {
+            const modalEntrada = new bootstrap.Modal("#modalEntrada");
+            modalEntrada.show();
+        }
+
+        // Función para los botones añadir carrito
+        function addCart(objeto) {
+            // Obtener el elemento donde se encuetra
+            var contenedor = objeto.parentElement.parentElement;
+            // Datos del producto
+            var nombre = contenedor.getElementsByTagName("h3")[0];
+            var precio = contenedor.getElementsByTagName("p")[0];
+            var precioFinal = contenedor.getElementsByTagName("p")[1];
+            // Crear objeto
+            var producto = {
+                "nombre": nombre.innerText,
+                "precio": precio.innerText,
+                "precioFinal": precioFinal.innerText
+            }
+            // Añadir al array de objetos
+            ObjetosSeleccionados.push(producto);
+        }
+
+        // Función actualizar lista
+        function actualizarLista() {
+            var lista = document.getElementById("listaCarrito");
+            // Crear el HTML
+            var texto = "";
+            ObjetosSeleccionados.forEach(element => {
+                texto = texto + "<div class='productoLista'>";
+                texto = texto + "<p>" + element.nombre + "</p>";
+                texto = texto + "<p>" + element.precio + "</p>";
+                texto = texto + "<p>" + element.precioFinal + "</p>";
+                texto = texto + "</div>";
+            });
+            lista.innerHTML = texto;
+        }
+    </script>
 </body>
-<script>
-    function primeraFuncion(){
-        alert("Buenas Noches")
-    }
-    
-</script>
 
 </html>
